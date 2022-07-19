@@ -1,0 +1,67 @@
+.Slider {
+  padding: 0 230px;
+  font-family: var(--poppins);
+  margin-top: 100px;
+}
+
+.sliderItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tag-line {
+  color: var(--dark-orange);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.line-1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.orangeBold {
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.bold-line {
+  font-family: var(--montserrat);
+  font-weight: 600;
+  font-size: 47px;
+}
+
+.bottom-line {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 25px 0 60px 0;
+}
+
+.sliderItem .create-a-card-button {
+  margin: 0;
+}
+
+.SliderDots {
+  margin: 250px 0 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  margin: 0 5px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  background-color: #c4c4c4;
+}
+
+.dot.activeDot {
+  background-color: var(--dark-orange);
+}

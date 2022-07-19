@@ -1,0 +1,31 @@
+.navbar {
+  padding: 75px 138px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  font-family: var(--poppins);
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.menuItem {
+  font-weight: 500;
+  margin: 0 40px;
+  font-size: 20px;
+  color: var(--dark-orange);
+}
+
+.create-a-card-button {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 30px;
+  cursor: pointer;
+  padding: 17px 47px;
+  color: var(--white);
+  background-color: var(--orange);
+  font-weight: 600;
+  border-radius: 50px;
+}
