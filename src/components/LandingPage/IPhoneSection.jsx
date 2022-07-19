@@ -1,6 +1,6 @@
-import iPhone from "../assets/iPhone.png";
-import iPhoneBack from "../assets/iPhoneBack.png";
-import iPhoneScreen from "../assets/iPhoneScreen.png";
+import iPhone from "../../assets/iPhone.png";
+import iPhoneBack from "../../assets/iPhoneBack.png";
+import iPhoneScreen from "../../assets/iPhoneScreen.png";
 import "./iPhoneSection.css";
 
 const IPhoneSection = () => {

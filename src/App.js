@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CreateCard from "./components/CreateCard";
-import LandingPage from "./components/LandingPage";
-import Share from "./components/Share";
+import CreateCard from "./components/CreateCard/CreateCard";
+import LandingPage from "./components/LandingPage/LandingPage.jsx";
+import Share from "./components/Share/Share";
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./LandingPage.css";
-import UpperRight from "../assets/UpperRight.png";
+import UpperRight from "../../assets/UpperRight.png";
 import Slider from "./Slider";
 import IPhoneSection from "./IPhoneSection";
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Slider.css";
-import LadyWithComputer from "../assets/LadyWithComputer.png";
+import LadyWithComputer from "../../assets/LadyWithComputer.png";
 import { useState } from "react";
 
 const SliderItem = ({ allLines, LadyWithComputer }) => {
