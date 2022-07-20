@@ -1,13 +1,19 @@
 .Slider {
-  padding: 0 230px;
+  padding: 0 5%;
   font-family: var(--poppins);
   margin-top: 100px;
 }
 
 .sliderItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
+.ladyWithComputer {
+  width: 100%;
+  object-fit: contain;
 }
 
 .tag-line {

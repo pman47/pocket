@@ -20,7 +20,7 @@ const SliderItem = ({ allLines, LadyWithComputer }) => {
           create a card
         </Link>
       </div>
-      <img src={LadyWithComputer} alt="lady img" />
+      <img className="ladyWithComputer" src={LadyWithComputer} alt="lady img" />
     </div>
   );
 };

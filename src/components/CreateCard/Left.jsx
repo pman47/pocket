@@ -33,7 +33,7 @@ const Left = () => {
       </div>
       <div className="inputFields">
         {inputFields.map((inputItem) => (
-          <InputField item={inputItem} />
+          <InputField item={inputItem} key={inputItem} />
         ))}
       </div>
       <div className="buttons">
