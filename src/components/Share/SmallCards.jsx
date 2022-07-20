@@ -3,6 +3,8 @@ import qrCode from "../../assets/qr-code.png";
 import email from "../../assets/email.png";
 import copyLink from "../../assets/copy-link.png";
 
+import "./SmallCards.css";
+
 const Card = ({ element, isActive, setActive, index }) => {
   const { image, text } = element;
   return (

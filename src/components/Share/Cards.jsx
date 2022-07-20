@@ -3,6 +3,8 @@ import card1 from "../../assets/card-1.png";
 import card2 from "../../assets/card-2.png";
 import qrCode from "../../assets/qr-code.png";
 
+import "./Cards.css";
+
 import { MdEdit } from "react-icons/md";
 import { BsPlusCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
