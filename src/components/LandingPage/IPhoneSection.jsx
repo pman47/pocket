@@ -1,6 +1,5 @@
 import iPhone from "../../assets/iPhone.png";
 import iPhoneBack from "../../assets/iPhoneBack.png";
-import iPhoneScreen from "../../assets/iPhoneScreen.png";
 import "./iPhoneSection.css";
 
 const IPhoneSection = () => {
@@ -10,11 +9,6 @@ const IPhoneSection = () => {
       <div className="detailsContainer">
         <div className="iphoneContainer">
           <img src={iPhone} alt="iphone back" className="iphone" />
-          <img
-            src={iPhoneScreen}
-            alt="iphone screen"
-            className="iphoneScreen"
-          />
         </div>
         <div className="details">
           <div className="simple">Create Your</div>

@@ -7,7 +7,7 @@ import IPhoneSection from "./IPhoneSection";
 
 const LandingPage = () => {
   return (
-    <div style={{ marginBottom: "300px" }}>
+    <div style={{ marginBottom: "100px" }}>
       <Navbar />
       <img
         cka
