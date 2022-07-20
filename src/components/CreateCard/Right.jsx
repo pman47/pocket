@@ -1,4 +1,7 @@
 import React from "react";
+
+import "./Right.css";
+
 import {
   FaDiscord,
   FaLinkedin,

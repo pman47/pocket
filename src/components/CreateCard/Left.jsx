@@ -2,6 +2,8 @@ import uploadImage from "../../assets/uploadImage.png";
 import { BsImage, BsPlus } from "react-icons/bs";
 import InputField from "./InputField";
 
+import "./Left.css";
+
 const Left = () => {
   let inputFields = [
     "First Name",
