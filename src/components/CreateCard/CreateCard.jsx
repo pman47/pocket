@@ -1,10 +1,16 @@
 import React from "react";
-import { BiArrowBack } from "react-icons/bi";
 import { Link } from "react-router-dom";
+
+// Assets
 import Logo from "../../assets/Logo.png";
 import "./CreateCard.css";
+
+// Components
 import Right from "./Right";
 import Left from "./Left";
+
+// Icons
+import { BiArrowBack } from "react-icons/bi";
 
 const CreateCard = () => {
   return (
@@ -15,6 +21,8 @@ const CreateCard = () => {
       <Link to="/share" className="backButton">
         <BiArrowBack className="backArrow" /> BACK
       </Link>
+
+      {/* ----- Both Sides ----- */}
       <div className="sides">
         <Left />
         <div className="line"></div>

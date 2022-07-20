@@ -1,10 +1,16 @@
+// Asset
 import uploadImage from "../../assets/uploadImage.png";
-import { BsImage, BsPlus } from "react-icons/bs";
-import InputField from "./InputField";
-
 import "./Left.css";
 
+// Icon
+import { BsImage, BsPlus } from "react-icons/bs";
+
+// Component
+import InputField from "./InputField";
+
+// Representing Left part of Create Card page
 const Left = () => {
+  // Label for each input fields
   let inputFields = [
     "First Name",
     "Middle Name",
@@ -18,6 +24,7 @@ const Left = () => {
 
   return (
     <div className="left">
+      {/* ---------- Image Container ---------- */}
       <div className="imageContainer">
         <img
           src={uploadImage}
@@ -33,6 +40,9 @@ const Left = () => {
           <p>LOGO</p>
         </div>
       </div>
+      {/* ---------- //Image Container ---------- */}
+
+      {/* ---------- Input Fields ---------- */}
       <div className="inputFields">
         {inputFields.map((inputItem) => (
           <InputField item={inputItem} key={inputItem} />
@@ -42,6 +52,7 @@ const Left = () => {
         <button className="cancelBtn">Cancel</button>
         <button className="saveBtn">Save</button>
       </div>
+      {/* ---------- //Input Fields ---------- */}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 
+// Representing Single input field
 const InputField = ({ item }) => {
   return (
     <div className="inputItem">

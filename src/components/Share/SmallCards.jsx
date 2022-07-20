@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+
+// Icons
 import qrCode from "../../assets/qr-code.png";
 import email from "../../assets/email.png";
 import copyLink from "../../assets/copy-link.png";
 
+// Importing external css
 import "./SmallCards.css";
 
+// Representing each single card
 const Card = ({ element, isActive, setActive, index }) => {
   const { image, text } = element;
   return (
@@ -18,14 +22,18 @@ const Card = ({ element, isActive, setActive, index }) => {
   );
 };
 
+// Representing all Small cards
 const SmallCards = () => {
   const [active, setActive] = useState(0);
+
+  // Data for Smallcards
   const data = [
     { image: qrCode, text: "Code" },
     { image: email, text: "Email" },
     { image: copyLink, text: "Copy Link" },
   ];
 
+  // To change selection of card
   const changeActive = (index) => {
     setActive(index);
   };
